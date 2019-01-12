@@ -1,0 +1,54 @@
+{
+  "name": "galak",
+  "version": "0.1.0",
+  "description": "Zero Configuration JS, CSS, PHP Linter",
+  "main": "index.js",
+  "scripts": {
+    "lint": "node index.js",
+    "fix": "node index.js --fix",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adenvt/galak.git"
+  },
+  "keywords": [
+    "JS",
+    "PHP",
+    "CSS",
+    "SCSS",
+    "Lint",
+    "Linter",
+    "Code",
+    "Formatter"
+  ],
+  "bin": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "author": "Ade Novid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adenvt/galak/issues"
+  },
+  "homepage": "https://github.com/adenvt/galak#readme",
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.0",
+    "eslint-config-adenvt": "^2.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-formatter-pretty": "^2.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-unicorn": "^6.0.1",
+    "eslint-plugin-varspacing": "^1.2.1",
+    "eslint-plugin-vue": "^5.1.0",
+    "meow": "^5.0.0",
+    "stylelint": "^9.7.1",
+    "stylelint-config-sass-guidelines": "^5.2.0",
+    "stylelint-formatter-pretty": "^1.0.3",
+    "stylelint-scss": "^3.4.0"
+  }
+}
